@@ -1,0 +1,34 @@
+{
+	"name": "cc2e-checklists",
+	"image": "mcr.microsoft.com/devcontainers/base:debian",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"yzhang.markdown-all-in-one",
+				"streetsidesoftware.code-spell-checker",
+				"DavidAnson.vscode-markdownlint",
+				"shd101wyy.markdown-preview-enhanced",
+				"bierner.github-markdown-preview"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": "true",
+			"configureZshAsDefaultShell": "true",
+			"installOhMyZsh": "true",
+			"upgradePackages": "true",
+			"username": "vscode",
+			"nonFreePackages": "false"
+		},
+		"ghcr.io/devcontainers/features/git:1": {
+			"version": "os-provided",
+			"ppa": "false"
+		}
+	},
+	"remoteUser": "vscode",
+	"containerEnv": {
+		"LANG": "${localEnv:LANG}",
+		"ZSH_CUSTOM": "${localEnv:ZSH_CUSTOM}"
+	}
+}

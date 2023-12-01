@@ -1,0 +1,28 @@
+{
+    "markdown-preview-enhanced.mermaidTheme": "dark",
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "markdown-preview-enhanced.breakOnSingleNewLine": false,
+    "cSpell.words": [
+        "disruptors",
+        "downcasting",
+        "endline",
+        "gotos",
+        "Liskov",
+        "modifiability",
+        "overcontrolling",
+        "overengineering",
+        "overridable",
+        "parameterizing",
+        "postconditions",
+        "Precompute",
+        "pseudocode",
+        "pseudoglobal",
+        "Refactorings",
+        "strcpy",
+        "strncat",
+        "strncmp",
+        "strncpy",
+        "subexpressions",
+        "Unswitch"
+    ]
+}

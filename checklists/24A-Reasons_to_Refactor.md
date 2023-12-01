@@ -1,0 +1,25 @@
+# Reasons to Refactor
+
+- [ ] Code is duplicated
+- [ ] A routine is too long
+- [ ] A loop is too long or too deeply nested
+- [ ] A class has poor cohesion
+- [ ] A class interface does not provide a consistent level of abstraction
+- [ ] A parameter list has too many parameters
+- [ ] Changes within a class tend to be compartmentalized
+- [ ] Changes require parallel modifications to multiple classes
+- [ ] Inheritance hierarchies have to be modified in parallel
+- [ ] Related data items that are used together are not organized into classes
+- [ ] A routine uses more features of another class than of its own class
+- [ ] A primitive data type is overloaded
+- [ ] A class doesn't do very much
+- [ ] A chain of routines passes tramp data
+- [ ] A middle man object isn't doing anything
+- [ ] One class is overly intimate with another
+- [ ] A routine has a poor name
+- [ ] Data members are public
+- [ ] A subclass uses only a small percentage of its parents' routines
+- [ ] Comments are used to explain difficult code
+- [ ] Global variables are used
+- [ ] A routine uses setup code before a routine call or takedown code after a routine call
+- [ ] A program contains code that seems like it might be needed someday
